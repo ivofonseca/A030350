@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -58,6 +59,8 @@ import java.net.URL;
             }
 
             return null;
+
+
         }
 
         @Override
@@ -69,6 +72,7 @@ import java.net.URL;
             img3.setImageBitmap(bit3);
             img4.setImageBitmap(bit4);
             img5.setImageBitmap(bit5);
+
         }
     }
 
